@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: teal;
+}
+
+#form__sect{
+    display: flex;
+    width: 80%;
+    position: relative;
+    top: 100px;
+    margin: auto;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+}
+.signup{
+    background-color: white;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+#form{
+    margin: 0 35px;
+    display: flex;
+  
+}
+.form-group{
+    margin: 10px 20px;
+   
+}
+.form-group label{
+    font-size: 10px;
+}
+.form-group input{
+    padding: 10px 5px;
+    display: block;
+}
+.terms{
+    margin: 20px 10px;
+    margin-bottom: 50px;
+}
+
+.btn{
+    position: absolute;
+    bottom: -10px;
+    left: 64%;
+    padding: 10px 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+}

@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.image{
+    background: url('/assets/ccback.webp') center/cover;
+    filter: grayscale(50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+
+}
+header{
+    background-color: white;
+  
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.head-2 ion-icon{
+    padding: 0 10px;
+}
+main{
+    background: url('/assets/crush.jpg') center/cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
+.btn-1{
+    margin: 90% 0 10px 20%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: red;
+    border-radius: 100%;
+}
+.btn-2{
+    position: absolute;
+    text-align: center;
+    top: 90%;
+    left: 43%;
+    padding: 10px 100px;
+    background-color: rgb(223, 16, 113);
+    color: white;
+    border-radius: 45px;
+    font-size: 50px;
+    font-family: Blackadder ITC;
+    font-weight: bold;
+}
+
+.btn-3{
+    position: absolute;
+    text-align: center;
+    top: 105%;
+    left: 40%;
+    padding: 10px 78px;
+    background-color: rgb(25, 178, 238);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 45px;
+    font-family: Blackadder ITC;
+}
